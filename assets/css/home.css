@@ -54,6 +54,10 @@
 	margin-bottom: 40px;
 }
 
+.carousel-more {
+	background: white;
+}
+
 .gsc-results-wrapper-overlay.gsc-results-wrapper-visible {
 	line-height: 1.42857143 !important;
 }

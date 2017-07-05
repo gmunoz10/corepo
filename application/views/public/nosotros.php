@@ -87,9 +87,8 @@
             <div style="background: rgba(0, 139, 139, 0.9); color: white; border-radius: 15px; padding: 8px;">
               <p><b>7. Gobiernos Locales:</b></p>
               <div class="width: 100%; text-align: center;">
-                <img src="<?= asset_url() ?>img/nosotros/img09.png" style="width: 44%; margin: 5px; display: inline-block;" class="img-responsive">
-                <img src="<?= asset_url() ?>img/nosotros/img08.png" style="width: 44%; margin: 5px;" class="img-responsive img-thumbnail">
                 <img src="<?= asset_url() ?>img/nosotros/img07.jpg" style="width: 95%; margin: 5px; display: inline-block;" class="img-responsive">
+                <img src="<?= asset_url() ?>img/nosotros/img08.png" style="width: 44%; margin: 5px;" class="img-responsive img-thumbnail">
               </div>
             </div>
           </div>
@@ -120,36 +119,47 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-12" style="margin-bottom: 10px;">
-            <div style="background: rgba(0, 139, 139, 0.9); color: white; border-radius: 15px; padding: 8px;">
-              <p><b>8. Sector Ambiental:</b></p>
-              <ul>
-                <li><b>GERENCIA REGIONAL DE GESTIÓN DEL MEDIO AMBIENTE</b></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-lg-12" style="margin-bottom: 10px;">
-            <div style="background: rgba(0, 139, 139, 0.9); color: white; border-radius: 15px; padding: 8px;">
-              <p><b>9. Sector Salud:</b></p>
-              <ul>
-                <li><b>DIRECCIÓN REGIONAL DE SALUD</b></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-lg-12" style="margin-bottom: 10px;">
-            <div style="background: rgba(0, 139, 139, 0.9); color: white; border-radius: 15px; padding: 8px;">
-              <p><b>10. Sector Educación:</b></p>
-              <ul>
-                <li><b>DIRECCIÓN REGIONAL DE EDUCACIÓN</b></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-lg-12" style="margin-bottom: 10px;">
-            <div style="background: rgba(0, 139, 139, 0.9); color: white; border-radius: 15px; padding: 8px;">
-              <p><b>11. Sector Agrario:</b></p>
-              <ul>
-                <li><b>DIRECCIÓN REGIONAL DE AGRICULTURA</b></li>
-              </ul>
+          <div class="col-lg-12" style="display: grid;">
+            <div style="background: rgba(222, 184, 135, 0.9); color: white; border-radius: 15px; padding: 8px;">
+              <div class="col-lg-12" style="margin-bottom: 10px;">
+                <a target="_blank" href="http://www.regionlima.gob.pe/">
+                  <img src="<?= asset_url() ?>img/nosotros/img09.png" style="width: 95%; margin: 5px; display: inline-block;" class="img-responsive">
+                </a>
+              </div>
+              <div class="col-lg-12" style="margin-bottom: 10px;">
+                <div style="background: rgba(255, 127, 80, 0.9); color: white; border-radius: 15px; padding: 8px;">
+                  <p><b>8. Sector Ambiental:</b></p>
+                  <ul>
+                    <li><b>GERENCIA REGIONAL DE GESTIÓN DEL MEDIO AMBIENTE</b></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-12" style="margin-bottom: 10px;">
+                <div style="background: rgba(255, 127, 80, 0.9); color: white; border-radius: 15px; padding: 8px;">
+                  <p><b>9. Sector Salud:</b></p>
+                  <ul>
+                    <li><b>DIRECCIÓN REGIONAL DE SALUD</b></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-12" style="margin-bottom: 10px;">
+                <div style="background: rgba(255, 127, 80, 0.9); color: white; border-radius: 15px; padding: 8px;">
+                  <p><b>10. Sector Educación:</b></p>
+                  <ul>
+                    <li><b>DIRECCIÓN REGIONAL DE EDUCACIÓN</b></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-12" style="margin-bottom: 10px;">
+                <div style="background: rgba(255, 127, 80, 0.9); color: white; border-radius: 15px; padding: 8px;">
+                  <p><b>11. Sector Agrario:</b></p>
+                  <div class="width: 100%;">
+                    <a target="_blank" href="http://dral.gob.pe/">
+                      <img src="<?= asset_url() ?>img/brand/logo-200.jpg" style="width: 44%; margin: 5px; display: inline-block; border-radius: 10px;" class="img-responsive">
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

@@ -42,7 +42,19 @@
   </head>
   <body>
     <div class="super-header">
-      <a href="http://www.regionlima.gob.pe" target="_blank">http://www.regionlima.gob.pe</a>
+      <a href="http://www.dral.gob.pe" target="_blank">http://www.dral.gob.pe</a>
+      <?php
+        if ($this->session->userdata("usuario")) {
+      ?>
+      <button class="btn pull-right" style="margin-right: 4px; margin-left: 10px; border: none; padding: 2px 10px; background: #9e9e9e; font-family: Verdana, sans-serif;"><a href="<?= base_url('logout') ?>" style="text-decoration: none;"><i class="fa fa-power-off" aria-hidden="true"></i> Cerrar sesión</a></button>
+          <span class="pull-right" style="border: none; padding: 2px 10px; background: rgba(14,130,64, 1); color: white; font-family: Verdana, sans-serif;"><i class="fa fa-user" aria-hidden="true"></i> Bienvenido, <b><a href="<?= base_url() . 'cambiar_clave' ?>"><?= $this->session->userdata("usuario")->nomb_usu ?></b></a></span>
+      <?php
+        } else {
+      ?>
+          <button class="btn pull-right sesion-login" style="margin-right: 4px; border: none; padding: 2px 10px; background: rgba(14,130,64, 1); font-family: Verdana, sans-serif;"><a href="<?= base_url('login') ?>" style="text-decoration: none;"><i class="fa fa-user" aria-hidden="true"></i> Intranet</a></button>
+      <?php
+        }
+      ?>
     </div>
     <div class="main-background" style="background-image: url('<?= asset_url() ?>img/background/corepo-background.jpg');">
       <div class="box-logo text-center" style="background: rgba(255,255,255, .8); text-align: left;">
@@ -78,6 +90,26 @@
               <li>
                 <a class="item-menu" href="<?= base_url() ?>">Contacto</a>
               </li>
+              <?php
+                if ($this->session->userdata("usuario")) {
+              ?>
+              <li class="dropdown">
+                <a class="item-menu dropdown-toggle" data-toggle="dropdown">Operaciones</a>
+                <ul class="dropdown-menu no-padding">
+                  <?php if (check_permission(BUSCAR_ROL)) { ?>
+                    <li><a href="<?= base_url('rol') ?>">Roles</a></li>
+                  <?php } ?>
+                  <?php if (check_permission(BUSCAR_CUENTA)) { ?>
+                    <li><a href="<?= base_url('usuario') ?>">Cuentas de acceso</a></li>
+                  <?php } ?>
+                  <?php if (check_permission(BUSCAR_NOTICIA)) { ?>
+                    <li><a href="<?= base_url('noticia') ?>">Noticia</a></li>
+                  <?php } ?>
+                </ul>
+              </li>
+              <?php
+                }
+              ?>
               <li class="divider-vertical"></li>
             </ul>
           </div>

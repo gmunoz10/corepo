@@ -7844,3 +7844,74 @@ INFO - 2017-07-04 09:42:43 --> File loaded: C:\xampp\htdocs\corepo\application\v
 INFO - 2017-07-04 09:42:43 --> File loaded: C:\xampp\htdocs\corepo\application\views\template/body_main.php
 INFO - 2017-07-04 09:42:43 --> Final output sent to browser
 DEBUG - 2017-07-04 09:42:43 --> Total execution time: 0.0779
+INFO - 2017-07-04 10:04:34 --> Config Class Initialized
+INFO - 2017-07-04 10:04:34 --> Hooks Class Initialized
+DEBUG - 2017-07-04 10:04:34 --> UTF-8 Support Enabled
+INFO - 2017-07-04 10:04:34 --> Utf8 Class Initialized
+INFO - 2017-07-04 10:04:34 --> URI Class Initialized
+INFO - 2017-07-04 10:04:34 --> Router Class Initialized
+INFO - 2017-07-04 10:04:34 --> Output Class Initialized
+INFO - 2017-07-04 10:04:34 --> Security Class Initialized
+DEBUG - 2017-07-04 10:04:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-07-04 10:04:34 --> Input Class Initialized
+INFO - 2017-07-04 10:04:34 --> Language Class Initialized
+INFO - 2017-07-04 10:04:34 --> Loader Class Initialized
+INFO - 2017-07-04 10:04:34 --> Helper loaded: language_helper
+INFO - 2017-07-04 10:04:34 --> Helper loaded: url_helper
+INFO - 2017-07-04 10:04:34 --> Helper loaded: form_helper
+INFO - 2017-07-04 10:04:34 --> Helper loaded: captcha_helper
+INFO - 2017-07-04 10:04:34 --> Helper loaded: util_helper
+INFO - 2017-07-04 10:04:34 --> Session: Class initialized using 'files' driver.
+INFO - 2017-07-04 10:04:34 --> User Agent Class Initialized
+INFO - 2017-07-04 10:04:34 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2017-07-04 10:04:34 --> Pagination Class Initialized
+INFO - 2017-07-04 10:04:34 --> Form Validation Class Initialized
+INFO - 2017-07-04 10:04:34 --> Controller Class Initialized
+INFO - 2017-07-04 10:04:34 --> Email Class Initialized
+DEBUG - 2017-07-04 10:04:34 --> Session class already loaded. Second attempt ignored.
+INFO - 2017-07-04 10:04:34 --> File loaded: C:\xampp\htdocs\corepo\application\views\public/nosotros.php
+INFO - 2017-07-04 10:04:34 --> File loaded: C:\xampp\htdocs\corepo\application\views\template/body_main.php
+INFO - 2017-07-04 10:04:34 --> Final output sent to browser
+DEBUG - 2017-07-04 10:04:34 --> Total execution time: 0.3358
+INFO - 2017-07-04 10:04:34 --> Config Class Initialized
+INFO - 2017-07-04 10:04:34 --> Hooks Class Initialized
+DEBUG - 2017-07-04 10:04:34 --> UTF-8 Support Enabled
+INFO - 2017-07-04 10:04:34 --> Utf8 Class Initialized
+INFO - 2017-07-04 10:04:34 --> URI Class Initialized
+INFO - 2017-07-04 10:04:34 --> Router Class Initialized
+INFO - 2017-07-04 10:04:34 --> Output Class Initialized
+INFO - 2017-07-04 10:04:34 --> Security Class Initialized
+DEBUG - 2017-07-04 10:04:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-07-04 10:04:34 --> Input Class Initialized
+INFO - 2017-07-04 10:04:34 --> Language Class Initialized
+ERROR - 2017-07-04 10:04:34 --> 404 Page Not Found: Assets/js
+ERROR - 2017-07-04 10:04:34 --> Severity: Warning --> include(C:\xampp\htdocs\corepo\application\views\errors\html\error_404.php): failed to open stream: No such file or directory C:\xampp\htdocs\corepo\system\core\Exceptions.php 182
+ERROR - 2017-07-04 10:04:34 --> Severity: Warning --> include(): Failed opening 'C:\xampp\htdocs\corepo\application\views\errors\html\error_404.php' for inclusion (include_path='.;C:\xampp\php\PEAR') C:\xampp\htdocs\corepo\system\core\Exceptions.php 182
+INFO - 2017-07-04 10:04:36 --> Config Class Initialized
+INFO - 2017-07-04 10:04:36 --> Hooks Class Initialized
+DEBUG - 2017-07-04 10:04:36 --> UTF-8 Support Enabled
+INFO - 2017-07-04 10:04:36 --> Utf8 Class Initialized
+INFO - 2017-07-04 10:04:36 --> URI Class Initialized
+INFO - 2017-07-04 10:04:36 --> Router Class Initialized
+INFO - 2017-07-04 10:04:36 --> Output Class Initialized
+INFO - 2017-07-04 10:04:36 --> Security Class Initialized
+DEBUG - 2017-07-04 10:04:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-07-04 10:04:36 --> Input Class Initialized
+INFO - 2017-07-04 10:04:36 --> Language Class Initialized
+ERROR - 2017-07-04 10:04:36 --> 404 Page Not Found: Assets/css
+ERROR - 2017-07-04 10:04:36 --> Severity: Warning --> include(C:\xampp\htdocs\corepo\application\views\errors\html\error_404.php): failed to open stream: No such file or directory C:\xampp\htdocs\corepo\system\core\Exceptions.php 182
+ERROR - 2017-07-04 10:04:36 --> Severity: Warning --> include(): Failed opening 'C:\xampp\htdocs\corepo\application\views\errors\html\error_404.php' for inclusion (include_path='.;C:\xampp\php\PEAR') C:\xampp\htdocs\corepo\system\core\Exceptions.php 182
+INFO - 2017-07-04 10:04:36 --> Config Class Initialized
+INFO - 2017-07-04 10:04:36 --> Hooks Class Initialized
+DEBUG - 2017-07-04 10:04:36 --> UTF-8 Support Enabled
+INFO - 2017-07-04 10:04:36 --> Utf8 Class Initialized
+INFO - 2017-07-04 10:04:36 --> URI Class Initialized
+INFO - 2017-07-04 10:04:36 --> Router Class Initialized
+INFO - 2017-07-04 10:04:36 --> Output Class Initialized
+INFO - 2017-07-04 10:04:36 --> Security Class Initialized
+DEBUG - 2017-07-04 10:04:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-07-04 10:04:36 --> Input Class Initialized
+INFO - 2017-07-04 10:04:36 --> Language Class Initialized
+ERROR - 2017-07-04 10:04:36 --> 404 Page Not Found: Assets/js
+ERROR - 2017-07-04 10:04:36 --> Severity: Warning --> include(C:\xampp\htdocs\corepo\application\views\errors\html\error_404.php): failed to open stream: No such file or directory C:\xampp\htdocs\corepo\system\core\Exceptions.php 182
+ERROR - 2017-07-04 10:04:36 --> Severity: Warning --> include(): Failed opening 'C:\xampp\htdocs\corepo\application\views\errors\html\error_404.php' for inclusion (include_path='.;C:\xampp\php\PEAR') C:\xampp\htdocs\corepo\system\core\Exceptions.php 182

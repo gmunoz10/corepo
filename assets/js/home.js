@@ -43,7 +43,7 @@ $(function() {
 
  	$("#noticia_link").click(function() {
  		var codi_not = $("#carousel-noticias .carousel-inner .item.active").data("codi");
- 		//window.location.href = base_url+"noticia/"+codi_not;
+ 		window.location.href = base_url+"noticia/"+codi_not;
  	});
 
  	$('#carousel-noticias .btn-facebook').click(function (e) {
@@ -56,7 +56,24 @@ $(function() {
 
  	$('#carousel-noticias .btn-twitter').click(function (e) {
         window.open('https://twitter.com/intent/tweet?&url='+encodeURI(base_url+"noticia/"+$("#carousel-noticias .carousel-inner .item.active").data("codi")), "Publica un Tweet en Twitter", "width=500,height=500");
-  });
+  	});
+
+	$("#evento_link").click(function() {
+ 		var codi_eve = $("#carousel-eventos .carousel-inner .item.active").data("codi");
+ 		window.location.href = base_url+"evento/"+codi_eve;
+ 	});
+
+ 	$('#carousel-eventos .btn-facebook').click(function (e) {
+		FB.ui({
+		    method: 'share',
+		    display: 'popup',
+		    href: base_url+"evento/"+$("#carousel-eventos .carousel-inner .item.active").data("codi"),
+		  }, function(response){});
+	});
+
+ 	$('#carousel-eventos .btn-twitter').click(function (e) {
+        window.open('https://twitter.com/intent/tweet?&url='+encodeURI(base_url+"evento/"+$("#carousel-eventos .carousel-inner .item.active").data("codi")), "Publica un Tweet en Twitter", "width=500,height=500");
+  	});
 
  	$("#modal_aviso").modal("show");
 });

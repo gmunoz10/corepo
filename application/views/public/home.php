@@ -192,8 +192,8 @@
     </div>
     <div class="col-lg-6">
       <div class="text-center">
-        <a target="_blank" href="http://dral.gob.pe/">
-          <img class="logo-01" src="<?= asset_url() ?>img/brand/logo-200.jpg" style="width: 100%; border-radius: 15px;">
+        <a target="_blank" href="http://www.regionlima.gob.pe/">
+          <img class="logo-01" src="<?= asset_url() ?>img/nosotros/img09.png" style="width: 100%; border-radius: 15px;">
         </a>
       </div>
     </div>

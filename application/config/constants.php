@@ -95,3 +95,34 @@ defined('APP_ID_FB')   				OR define('APP_ID_FB', '1327135627399921');
 defined('APP_SECRET_FB')   			OR define('APP_SECRET_FB', '7b7732eb917c72e8a51a54dcc8a0dd44');
 defined('ACCESS_TOKEN_FB')   		OR define('ACCESS_TOKEN_FB', 'EAAS3Bdej0vEBAIrcalLZChojkOey6DRQNKe3dD2NztSiCANFVaTfLqBAbZBpOWNKaV8r7WEldvz4r590JYvcWP93fgIcUU7lBWVSeR9B3JzaFldK7x2CceQxPQyKHuXeZA6H1bSVQnEtmvlGOUJm3UKu5rucZApxWXBjgauMDwZDZD');
 
+/*
+|--------------------------------------------------------------------------
+| Permisos
+|--------------------------------------------------------------------------
+*/
+// CUENTAS DE ACCESO
+defined('BUSCAR_CUENTA')        		OR define('BUSCAR_CUENTA', 1);
+defined('LEER_CUENTA')          		OR define('LEER_CUENTA', 2);
+defined('REGISTRAR_CUENTA')     		OR define('REGISTRAR_CUENTA', 3);
+defined('MODIFICAR_CUENTA')     		OR define('MODIFICAR_CUENTA', 4);
+defined('HABILITAR_CUENTA')     		OR define('HABILITAR_CUENTA', 5);
+defined('DESHABILITAR_CUENTA')     		OR define('DESHABILITAR_CUENTA', 6);
+defined('ELIMINAR_CUENTA')  	   		OR define('ELIMINAR_CUENTA', 7);
+defined('MODIFICAR_PERMISO_USUARIO')    OR define('MODIFICAR_PERMISO_USUARIO', 8);
+// ROLES
+defined('BUSCAR_ROL')     				OR define('BUSCAR_ROL', 9);
+defined('LEER_ROL')          			OR define('LEER_ROL', 10);
+defined('REGISTRAR_ROL')     			OR define('REGISTRAR_ROL', 11);
+defined('MODIFICAR_ROL')     			OR define('MODIFICAR_ROL', 12);
+defined('HABILITAR_ROL')     			OR define('HABILITAR_ROL', 13);
+defined('DESHABILITAR_ROL')     		OR define('DESHABILITAR_ROL', 14);
+defined('ELIMINAR_ROL')  	   			OR define('ELIMINAR_ROL', 15);
+defined('MODIFICAR_PERMISO_ROL')     	OR define('MODIFICAR_PERMISO_ROL', 16);
+// NOTICIA
+defined('BUSCAR_NOTICIA')  				OR define('BUSCAR_NOTICIA', 17);
+defined('LEER_NOTICIA')        			OR define('LEER_NOTICIA', 18);
+defined('REGISTRAR_NOTICIA')   			OR define('REGISTRAR_NOTICIA', 19);
+defined('MODIFICAR_NOTICIA')   			OR define('MODIFICAR_NOTICIA', 20);
+defined('HABILITAR_NOTICIA')   			OR define('HABILITAR_NOTICIA', 21);
+defined('DESHABILITAR_NOTICIA')			OR define('DESHABILITAR_NOTICIA', 22);
+defined('ELIMINAR_NOTICIA')   			OR define('ELIMINAR_NOTICIA', 23);

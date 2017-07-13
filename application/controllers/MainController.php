@@ -9,9 +9,9 @@ class MainController extends CI_Controller {
 
     public function __construct() {
         parent::__construct();
-        $this->load->model(array());
+        $this->load->model(array("mod_prensa"));
         $this->load->library('email');
-        //$this->load->helper('cookie');
+        $this->load->helper('cookie');
         /*
         $config['protocol'] = 'smtp';
         $config['smtp_host'] = 'smtp.postmarkapp.com';
@@ -26,6 +26,15 @@ class MainController extends CI_Controller {
     }
 
     public function index() {
+        $page = 1;
+        $size = 5;
+        $start = (int) $page * $size - $size;
+
+        $data["count"] = $this->mod_prensa->count_noticias();
+        $data["noticias"] = $this->mod_prensa->get_list_noticias($start, $size);
+        $data["page"] = $page;
+        $data["pages"] = ceil($data["count"]/$size);
+
         $this->styles[] = '<link href="'.asset_url().'css/home.css" rel="stylesheet">';
         $this->scripts[] = '<script src="'.asset_url().'js/home.js"></script>';
 

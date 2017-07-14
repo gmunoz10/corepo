@@ -2,11 +2,12 @@
 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-$route['default_controller'] = "Mainontroller";
+$route['default_controller'] = "MainController";
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
-$route['/'] = "MainController/index";
+$route['(:num)'] = "MainController/index/$1";
+
 $route['nosotros'] = "MainController/nosotros";
 $route['noticia/(:num)'] = "PrensaController/noticia/$1";
 $route['noticia/page'] = "PrensaController/lista_noticia";

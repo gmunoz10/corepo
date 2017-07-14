@@ -102,7 +102,7 @@ $config['bootstrap_version'] = '3.3.6';
 
 $config['app_via'] = 1;
 $config['app_name'] = 'DRAL';
-$config['app_site'] = 'http://www.dral.gob.pe';
+$config['app_site'] = 'http://www.corepo.dral.gob.pe';
 $config['time_zone'] = 'America/Lima';
 
 $config['database_id'] = 1;

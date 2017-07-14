@@ -25,7 +25,7 @@ class MainController extends CI_Controller {
         */
     }
 
-    public function index() {
+    public function index($page = 1) {
         $page = 1;
         $size = 5;
         $start = (int) $page * $size - $size;

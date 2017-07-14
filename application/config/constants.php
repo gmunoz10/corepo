@@ -91,9 +91,9 @@ defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest auto
 | Facebook API
 |--------------------------------------------------------------------------
 */
-defined('APP_ID_FB')   				OR define('APP_ID_FB', '1327135627399921');
-defined('APP_SECRET_FB')   			OR define('APP_SECRET_FB', '7b7732eb917c72e8a51a54dcc8a0dd44');
-defined('ACCESS_TOKEN_FB')   		OR define('ACCESS_TOKEN_FB', 'EAAS3Bdej0vEBAIrcalLZChojkOey6DRQNKe3dD2NztSiCANFVaTfLqBAbZBpOWNKaV8r7WEldvz4r590JYvcWP93fgIcUU7lBWVSeR9B3JzaFldK7x2CceQxPQyKHuXeZA6H1bSVQnEtmvlGOUJm3UKu5rucZApxWXBjgauMDwZDZD');
+defined('APP_ID_FB')   				OR define('APP_ID_FB', '272185916518615');
+defined('APP_SECRET_FB')   			OR define('APP_SECRET_FB', '30870218b0cc4b75bbca15f7967b9ce3');
+defined('ACCESS_TOKEN_FB')   		OR define('ACCESS_TOKEN_FB', 'EAAD3jTjd8NcBAMEVA6f4mqy5SxLVKDMAnEew6szEjaHTLytupjtQn3FGoqCoUyzjzcgAc1ymMZCGz7doHsXaENoAVrZAOj7r5TLt353WjZB7IVULE1sNSIVzXEf8RldV8He8ShipupGJkiFAMhNkRtbkVkrQkfXTgHSxP9IEgZDZD');
 
 /*
 |--------------------------------------------------------------------------
